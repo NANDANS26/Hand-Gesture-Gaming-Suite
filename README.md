@@ -47,6 +47,7 @@ The project prioritizes visual feedback and clean design to enhance the user exp
 
 The file organization is neat and easy to navigate:
 
+ ```bash
 GEUSTUREGAMES/ 
 ├── fruit/ 
 │ └── main.py 
@@ -60,7 +61,7 @@ GEUSTUREGAMES/
 │ └── main.py 
 ├── README.md 
 └── requirements.txt
-
+ ```
 
 ### Prerequisites
 
@@ -68,7 +69,7 @@ You need **Python 3.x** installed. The core dependencies are managed via `requir
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Hand-Gesture-Gaming-Suite.git](https://github.com/YourUsername/Hand-Gesture-Gaming-Suite.git)
+    git clone https://github.com/NANDANS26/Hand-Gesture-Gaming-Suite.git
     cd Hand-Gesture-Gaming-Suite
     ```
 
@@ -95,22 +96,8 @@ Each game runs independently and requires access to your computer's **webcam** (
 
 ---
 
-## 🔬 Core Technology Stack
-
-### MediaPipe Landmark Analysis
-
-All controls are derived from analyzing the 21 key points provided by the MediaPipe Hands model.
-
-
-* **RPS:** Relies on the $y$-axis comparison between the fingertip landmarks ($\#8, \#12, \#16, \#20$) and their corresponding knuckles.
-* **Snake:** Relies on the displacement vector between the Wrist ($\#0$) and the average of the four non-thumb fingertips.
-* **Racer:** Uses complex analysis involving the Wrist ($\#0$), Middle MCP ($\#9$), Thumb CMC ($\#1$), and Pinky/Index MCPs ($\#5, \#17$) to calculate tilt and acceleration.
-
----
-
 ## 👤 Author
 
-* **Nandan S** - [Your LinkedIn Profile Link]
-* **Project Link** - [Link to this GitHub Repository]
+* **Nandan S** - [[LinkedIn Profile Link]](https://www.linkedin.com/in/nandan-s-9279952a1/)
 
 *A ⭐ star on this repo would be highly appreciated! Thank you for checking out the proj
