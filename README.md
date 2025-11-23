@@ -4,11 +4,6 @@
 
 This repository showcases five unique games, each driven entirely by **real-time hand gestures** captured via a webcam. Built on Python, this project combines the power of **OpenCV** and **MediaPipe** for robust computer vision with the fun of **Pygame** for high-performance game rendering.
 
-| **Live Demo** | **Core Technology** | **Input Type** |
-| :---: | :---: | :---: |
-| [Insert GIF or Video Demo Here] | Python (3.10+) 🐍 | Webcam (USB or Integrated) 📸 |
-| **Control Accuracy** | MediaPipe Hand Tracking | **High-Frequency Input** (60 FPS) ⚡ |
-
 ---
 
 ## 🎮 Game Showcase & Controls Breakdown
