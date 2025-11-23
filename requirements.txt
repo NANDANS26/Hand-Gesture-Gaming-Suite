@@ -1,0 +1,5 @@
+flask
+pygame
+opencv-python
+mediapipe
+numpy
